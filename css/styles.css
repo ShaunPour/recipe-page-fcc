@@ -1,0 +1,134 @@
+body {
+    font-family: "Young Serif", sans-serif;
+}
+
+.title-img {
+    width: 100%;
+    max-width: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    width: 90%;
+    color: hsl(24, 5%, 18%);
+}
+
+.description {
+    width: 92%;
+    color: hsl(30, 10%, 34%);
+}
+
+main {
+    margin-top: 7.8em;
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    position: relative;
+    left: 1em;
+    width: 90%;
+}
+
+.prep-title {
+    color: hsl(332, 51%, 32%);
+    padding-top: 1em;
+    position: relative;
+    left: 0.9em;
+}
+
+.total-itm {
+    width: 75%;
+}
+
+.prep-list li {
+    margin-bottom: 0.65em;
+}
+
+.prep-list li:last-of-type {
+    padding-bottom: 1.25em;
+}
+
+.ingredients,.instructions {
+    position: relative;
+    left: 1.5em;
+    border-bottom: 1px solid black;
+    width: 85%;
+}
+
+.ingredients-title,.instructions-title,.nutrition-title, .ingredients-list li::marker,.instructions-list li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-title,.instructions-title,.nutrition-title {
+    font-size: 2em;
+}
+
+.ingredients-list li,.instructions-list li {
+    margin-bottom: 1.2em;
+    line-height: 2em;
+    position: relative;
+    left: -1.25em;
+}
+
+.instructions-list li span {
+    font-weight: 700;
+}
+
+.instructions-list li {
+    width: 115%;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+th:first-of-type, tr td:first-of-type {
+    padding-right: 4em;
+    padding-bottom: 1em;
+}
+
+.calories,.carbs,.protein,.fat {
+    font-size: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: right;
+}
+
+.calories-row td,.carbs-row td,.protein-row td,.fat-row td {
+    width: 110%;
+}
+
+@media (min-width: 375px) {
+    .title-img {
+        max-width: 375px;
+}
+main {
+    margin-top: 9.6em;
+}
+th,.calories-row td,.carbs-row td,.protein-row td,.fat-row td {
+    position: relative;
+    left: -3em;
+}
+}
+
+@media (min-width: 768px) {
+    .title-img {
+        max-width: 768px;
+    }
+    main {
+        margin-top: 21em;
+    }
+}
