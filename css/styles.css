@@ -131,4 +131,76 @@ th,.calories-row td,.carbs-row td,.protein-row td,.fat-row td {
     main {
         margin-top: 21em;
     }
+    .nutrition-descr {
+        width: 65%;
+        text-align: center;
+    }
+    .calories-row td,.carbs-row td,.protein-row td,.fat-row td {
+        left: -12em;
+    }
+    .header-second {
+        left: -12em;
+    }
+}
+
+@media (min-width: 820px) {
+    .title-img {
+        max-width: 820px;
+    }
+    main {
+        margin-top: 23em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title-img {
+        left: 5.5em;
+        top: 2em;
+    }
+    main {
+        margin-top: 25em;
+    }
+    .calories-row td,.carbs-row td,.protein-row td,.fat-row td {
+        left: -16.5em;
+    }
+    .header-second {
+        left: -17em;
+    }
+}
+
+@media (min-width: 1280px) {
+    .title-img {
+        left: 12em;
+        top: 2em;
+    }
+    .calories-row td,.carbs-row td,.protein-row td,.fat-row td {
+        left: -21.5em;
+    }
+    .header-second {
+        left: -22em;
+    }
+
+    table {
+        position: relative;
+        right: 6em;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title-img {
+        left: 22em;
+        top: 2em;
+    }
+    main {
+        position: relative;
+        left: 5em;
+    }
+    .title,.description {
+        text-align: center;
+    }
+    .description {
+        width: 45%;
+        position: relative;
+        left: 19em;
+    }
 }
